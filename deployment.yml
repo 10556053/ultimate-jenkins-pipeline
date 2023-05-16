@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: david920/ultimate-jenkins:replaceImageTag
+        image: david920/ultimate-jenkins:25
         ports:
         - containerPort: 8080
