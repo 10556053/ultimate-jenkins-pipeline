@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh "chmod +x -R ${env.WORKSPACE}"
+        sh 'chown -R ${env.WORKSPACE}'
         sh 'echo passed'
       }
     }
