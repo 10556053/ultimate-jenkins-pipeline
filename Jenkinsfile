@@ -8,7 +8,6 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'chown -R ${env.WORKSPACE}'
         sh 'echo passed'
       }
     }
