@@ -8,7 +8,6 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace'
         sh 'echo passed'
       }
     }
