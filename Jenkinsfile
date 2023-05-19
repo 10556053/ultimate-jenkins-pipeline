@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        cleanWs deleteDirs: true
+        
         sh 'echo passed'
       }
     }
